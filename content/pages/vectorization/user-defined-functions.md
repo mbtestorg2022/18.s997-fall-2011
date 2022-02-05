@@ -10,13 +10,66 @@ We have just seen—above, using the \\(@(x)\\) notation—an example of how to 
 
 A function is also a file with lines of code, but there are several distinctions between a function and a script:
 
-| SCRIPT | FUNCTION |
-| --- | --- |
-| Interacts with variables from the caller | Has very restricted interaction with the caller |
-| Cannot accept input | Can accept input |
-| Cannot return a value | Can return a value |
-| Can overwrite variables by mistake | No need to worry, variables are "local" |
-| Cannot have "sub-functions" in file | May define more functions in same file 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SCRIPT
+{{< thclose >}}
+{{< thopen >}}
+FUNCTION
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Interacts with variables from the caller
+{{< tdclose >}}
+{{< tdopen >}}
+Has very restricted interaction with the caller
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Cannot accept input
+{{< tdclose >}}
+{{< tdopen >}}
+Can accept input
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Cannot return a value
+{{< tdclose >}}
+{{< tdopen >}}
+Can return a value
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Can overwrite variables by mistake
+{{< tdclose >}}
+{{< tdopen >}}
+No need to worry, variables are "local"
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Cannot have "sub-functions" in file
+{{< tdclose >}}
+{{< tdopen >}}
+May define more functions in same file
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 When we "call" a function we usually give it input and expect output. For example:
 

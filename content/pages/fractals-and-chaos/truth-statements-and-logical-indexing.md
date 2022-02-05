@@ -125,21 +125,123 @@ A =
 
 **Exercise 19.** _The exercises here show the techniques of logical indexing. Given_ `x = 1:10` and `y = [3 1 5 6 8 2 9 4 7 0]`, _execute and interpret the results of the following commands:_
 
-| _1(a)_ |  `(x > 3) & (x < 8)` |
-| _1(b)_ |  `x(x > 5)` |
-| _1(c)_ |  `y(x <= 4)` |
-| _1(d)_ |  `x( (x < 2) &#124; (x >= 8) )` |
-| _1(e)_ |  `y( (x < 2) &#124; (x >= 8) )` |
-| _1(f)_ |  `x(y < 0)` 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+_1(a)_
+{{< tdclose >}}
+{{< tdopen >}}
+ `(x > 3) & (x < 8)`
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_1(b)_
+{{< tdclose >}}
+{{< tdopen >}}
+ `x(x > 5)`
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_1(c)_
+{{< tdclose >}}
+{{< tdopen >}}
+ `y(x <= 4)`
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_1(d)_
+{{< tdclose >}}
+{{< tdopen >}}
+ `x( (x < 2) | (x >= 8) )`
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_1(e)_
+{{< tdclose >}}
+{{< tdopen >}}
+ `y( (x < 2) | (x >= 8) )`
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_1(f)_
+{{< tdclose >}}
+{{< tdopen >}}
+ `x(y < 0)`
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 _Given_ `x = [3 15 9 12 -1 0 -12 9 6 1]`, _provide the command(s) that will_
 
-| _2(a)_ | _... set the positive elements of x to zero._ |
-| _2(b)_ | _... set values of x that are multiples of 3 to 3 (`rem` will help here)._ |
-| _2(c)_ | _... multiply the even elements of x by 5._ |
-| _2(d)_ | _... extract the values of x that are greater than 10 into a vector called y._ |
-| _2(e)_ | _... set the values in x that are less than the mean value of x to zero._ |
-| _2(f)_ | _... set the values in x that are above the mean to their difference from the mean._ 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+_2(a)_
+{{< tdclose >}}
+{{< tdopen >}}
+_... set the positive elements of x to zero._
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_2(b)_
+{{< tdclose >}}
+{{< tdopen >}}
+_... set values of x that are multiples of 3 to 3 (`rem` will help here)._
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_2(c)_
+{{< tdclose >}}
+{{< tdopen >}}
+_... multiply the even elements of x by 5._
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_2(d)_
+{{< tdclose >}}
+{{< tdopen >}}
+_... extract the values of x that are greater than 10 into a vector called y._
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_2(e)_
+{{< tdclose >}}
+{{< tdopen >}}
+_... set the values in x that are less than the mean value of x to zero._
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_2(f)_
+{{< tdclose >}}
+{{< tdopen >}}
+_... set the values in x that are above the mean to their difference from the mean._
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 **Homework 8.** _Going back to the Mandelbrot set calculation, we can keep a matrix that informs us of the step at which each element has become too large. Let's call it_ `Iter` _and agree that a zero value corresponds to_ _"not too large yet" and a non-zero value will be the iteration number at which the element has become big (absolute value greater than 10). At each step we update only these elements of_ `Zn` _that are still small (those that correspond to_ `~Iter` _being true), then find out which are the new big elements (_`abs(Zn)>10` _and_ `~Iter`_) and set the corresponding values of_ `Iter` _to the iteration number (from the for loop). Notice that using_ `~` _on a matrix of numbers returns_ `true` f_or the elements that are zero and_ `false` _for those that are not zero. After 100 iterations you need to plot the results. Since for the locations that did not converge we have the number of iterations it needs to reach size 10, we can make a nicer plot than the black-and-white plot from before. For this we can use:_
 

@@ -90,12 +90,63 @@ If this is your first programming project, you might get frustrated at how diffi
 
 That said, there are several hints I can give:
 
-| Hint 1. | If MATLAB is stuck, use Ctrl C to abort from a long calculation or to reset the command line. |
-| Hint 2. | If MATLAB is spewing out too much onto the screen and you cannot see what you want to see, add semi-colons (`;`) to the end of the "offending" lines to prevent MATLAB from doing that. |
-| Hint 3. | If all the points seem to be plotted at the roots rather than at the original points, you are probably using \\(X\\) to do the plotting rather than the original point (x,y) from the loop. |
-| Hint 4. | If you are getting warnings from MATLAB that your "Matrix is close to singular or badly scaled" don't worry about it too much. It means that your algorithm has passed through a point where the Jacobian matrix is singular. The result from that point is unreliable, but there should be (relatively) few of these points, and so the overall picture will be preserved. |
-| Hint 5. | If you always only have one point on your plot, you are probably not `hold`ing the plot properly. The two lines of code under the description of the project should be before the `for` loops (and not anywhere else). |
-| Hint 6. | What is the solution supposed to look like? My result can be seen in Fig. 1. Increasing the number of iterations should make the black regions (places that have not converged) smaller. 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hint 1.
+{{< tdclose >}}
+{{< tdopen >}}
+If MATLAB is stuck, use Ctrl C to abort from a long calculation or to reset the command line.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hint 2.
+{{< tdclose >}}
+{{< tdopen >}}
+If MATLAB is spewing out too much onto the screen and you cannot see what you want to see, add semi-colons (`;`) to the end of the "offending" lines to prevent MATLAB from doing that.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hint 3.
+{{< tdclose >}}
+{{< tdopen >}}
+If all the points seem to be plotted at the roots rather than at the original points, you are probably using \\(X\\) to do the plotting rather than the original point (x,y) from the loop.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hint 4.
+{{< tdclose >}}
+{{< tdopen >}}
+If you are getting warnings from MATLAB that your "Matrix is close to singular or badly scaled" don't worry about it too much. It means that your algorithm has passed through a point where the Jacobian matrix is singular. The result from that point is unreliable, but there should be (relatively) few of these points, and so the overall picture will be preserved.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hint 5.
+{{< tdclose >}}
+{{< tdopen >}}
+If you always only have one point on your plot, you are probably not `hold`ing the plot properly. The two lines of code under the description of the project should be before the `for` loops (and not anywhere else).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hint 6.
+{{< tdclose >}}
+{{< tdopen >}}
+What is the solution supposed to look like? My result can be seen in Fig. 1. Increasing the number of iterations should make the black regions (places that have not converged) smaller.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ![Colorful graphic with symmetry around a center point.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/basic-plotting/basins-of-attraction/18-S997f11_unit3_img4.jpg)
 
