@@ -16,15 +16,91 @@ uid: cf798304-e742-31c2-5fa3-24cb0ee3ab0e
 
 The `plot` command plots a list of points given as two vectors, \\(X\\) and \\(Y\\) of their x- and y- coordinates, respectively. The default behaviour is that no mark is placed on the points, and the points are joined by a straight line. So if we want to plot a parabola \\(y=x^2\\) for \\(x\\in\[-1,1\]\\) we can write:
 
-|  {{< br >}}{{< br >}} ```{{< br >}}x=-1:.1:1;{{< br >}}y=x.^2;{{< br >}}plot(x,y){{< br >}}``` {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ![Graph of an upward-facing parabola in blue.]({{< resource_file af01e8db-e2e8-c5ff-1ba7-2e8492b491f1 >}}) {{< br >}}{{< br >}} Graphing a simple function, y=x^2. {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+```
+x=-1:.1:1;
+y=x.^2;
+plot(x,y)
+```
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+![Graph of an upward-facing parabola in blue.]({{< resource_file af01e8db-e2e8-c5ff-1ba7-2e8492b491f1 >}})
+
+Graphing a simple function, y=x^2.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 We could make that line green by adding a third input:
 
-|  {{< br >}}{{< br >}} ```{{< br >}}x=-1:.1:1;{{< br >}}y=x.^2;{{< br >}}plot(x,y,'g.'){{< br >}}``` {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ![Graph of an upward-facing parabola with discontinuous green line markers.]({{< resource_file a5af8ec4-4234-d0ae-2903-a33a90cf1246 >}}) {{< br >}}{{< br >}} Stylizing the graphs with colors and line markers. {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+```
+x=-1:.1:1;
+y=x.^2;
+plot(x,y,'g.')
+```
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+![Graph of an upward-facing parabola with discontinuous green line markers.]({{< resource_file a5af8ec4-4234-d0ae-2903-a33a90cf1246 >}})
+
+Stylizing the graphs with colors and line markers.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 The resulting plot need not be a function in the mathematical sense of the word:
 
-|  {{< br >}}{{< br >}} ```{{< br >}}t=-1:.01:2*pi;{{< br >}}x=sin(5*t);{{< br >}}y=cos(3*t);{{< br >}}plot(x,y,'r'){{< br >}}``` {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ![Graph of a Lissajous figure in red.]({{< resource_file 8cb777cd-aee2-a340-c543-59f60c3f387a >}}) {{< br >}}{{< br >}} Graphing a non-function in MATLAB®. {{< br >}}{{< br >}}  
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+```
+t=-1:.01:2*pi;
+x=sin(5*t);
+y=cos(3*t);
+plot(x,y,'r')
+```
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+![Graph of a Lissajous figure in red.]({{< resource_file 8cb777cd-aee2-a340-c543-59f60c3f387a >}})
+
+Graphing a non-function in MATLAB®.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 **Exercise 10.** _Read the helpfile on_ `plot` _by typing_ `help plot` _and figure out how to do the following:_
 

@@ -10,7 +10,7 @@ uid: 892e211f-42f9-0c33-de8e-347b0fe16037
 
 \\begin{equation} x\_{n+1}=r x\_n(1-x), \\qquad x\_0= 0.5 \\text{(or anything else that is not $0$ nor $1$)} \\end{equation}
 
-_This converges to a single value for some values of_ \\(r\\) _but for others results in an "orbit", which can be very long. For every_ \\(0<r<4\\), _"find" this orbit and plot the orbits together._
+_This converges to a single value for some values of_ \\(r\\) _but for others results in an "orbit", which can be very long. For every_ \\(0\<r\<4\\), _"find" this orbit and plot the orbits together._
 
 _Use the "matrix-at-a-time" notation we learned in the last iteration example:_
 
