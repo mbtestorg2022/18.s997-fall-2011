@@ -20,7 +20,7 @@ To decide on the color of a particular point on the screen \\((x,y)\\), we defin
 
 The result should look like this:
 
-![Graph of 100 iterations of the Mandelbrot fractal in gray.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/fractals-and-chaos/truth-statements-and-logical-indexing/18-S997f11_unit5_img2.jpg)
+{{< resource "4f24071a-c13e-d8e2-3806-e0e570d24a44" >}}
 
 Graphing the Mandelbrot set.
 
@@ -253,7 +253,7 @@ axis equal
 
 _We only need to plot once, after all the iterations have happened. Notice how much faster this is than the nested loops from before. Your result should look like this:_
 
-_![Graph of 100 iterations of the Mandelbrot fractal.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/fractals-and-chaos/truth-statements-and-logical-indexing/18-S997f11_unit5_img3.jpg)_
+_{{< resource "1522363c-dcb7-8685-7ea9-0f6e6ff6ce9c" >}}_
 
 Graphing the Mandelbrot set with logical indexing.
 

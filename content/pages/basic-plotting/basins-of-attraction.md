@@ -148,6 +148,6 @@ What is the solution supposed to look like? My result can be seen in Fig. 1. Inc
 
 {{< tableclose >}}
 
-![Colorful graphic with symmetry around a center point.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/basic-plotting/basins-of-attraction/18-S997f11_unit3_img4.jpg)
+{{< resource "072d4e9f-65ad-773a-5386-2ee2572818f7" >}}
 
 Figure 1. Basin of attraction for \\(f(\[x,y\]^t)=(x^3-y,y^3-x)^t\\).

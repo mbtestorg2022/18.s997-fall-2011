@@ -117,7 +117,7 @@ ans =
 
 The last line makes the following plot (except for the green line, which is \\(y=2x\\)):
 
-![Graph of a line and roots to verify second-order convergence of Newton's method.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/root-finding/the-secant-method/18-S997f11_unit2_img1.jpg)
+{{< resource "a7cbcafa-652d-e3ce-7ee1-0f5edaf5b6bb" >}}
 
 MATLAB can calculate roots through Newton's method, and verification of convergence is graphed.
 

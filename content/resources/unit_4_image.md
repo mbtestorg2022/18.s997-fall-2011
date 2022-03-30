@@ -10,6 +10,7 @@ image_metadata:
   credit: Photograph courtesy of Yossi Farjoun. Used with permission.
   image-alt: Screenshot of a function definition to covert Fahrenheit to Celsius and
     the respective function call.
+parent_uid: 18645230-e50f-3945-e34d-99f24f40ca3a
 resourcetype: Image
 title: Unit_4_image.jpg
 uid: 36f255a2-ce33-6eaa-5299-d030e4970a98

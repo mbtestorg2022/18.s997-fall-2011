@@ -86,7 +86,7 @@ We can run this function by calling it with the value for `mu` from the command 
 
 which results in the figure:
 
-![Graph of the oscillator iterations in blue.](/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/vectorization/18-S997f11_unit4_img2.jpg)
+{{< resource "01f41609-eedf-c2d7-11bd-02593bab20d4" >}}
 
 Plotting the solution to the Van-der-Pol oscillator.
 

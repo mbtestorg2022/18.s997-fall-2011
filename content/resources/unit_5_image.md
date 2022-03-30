@@ -10,6 +10,7 @@ image_metadata:
     \ loops and logical expressions."
   credit: Photograph courtesy of Yossi Farjoun. Used with permission.
   image-alt: Graph of 100 iterations of the Mandelbrot fractal.
+parent_uid: 1d7068b5-ce8d-3b56-622a-e79682a1dd43
 resourcetype: Image
 title: Unit_5_image.JPG
 uid: d647c10a-8ecf-3544-d49f-7aa60b9387d1
